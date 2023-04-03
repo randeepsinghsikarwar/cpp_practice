@@ -1,0 +1,16 @@
+Number of students=2
+Id=2
+name=randip
+total_subject=3
+subject[1]=0
+
+subject[2]=-1
+
+subject[3]=-3
+Number of students=2
+Id=4
+name=nidhi
+total_subject=2
+subject[1]=98
+
+subject[2]=99
