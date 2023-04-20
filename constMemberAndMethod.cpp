@@ -4,6 +4,8 @@ class Constant{
     public:
     const int i;
     Constant(): i(20){}
+
+    
     void show() const{
         cout<<"value of const variable via const method: "<<i<<endl;
     }
