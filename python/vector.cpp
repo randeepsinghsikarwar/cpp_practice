@@ -1,15 +1,27 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
 using namespace std;
-int main(){
-    vector<int> m;
-    for(int i = 0;i<6;i++){
-        int n;
-        cin>>n;
-        m.push_back(n);
+
+class Base
+{
+public:
+    void show()
+    {
+        cout << "Base class";
     }
-    m.pop_back();
-    for(int i=1; i<m.size();i++){
-        cout<<m[i]<<" ";
-    }  
+};
+class Derived : public Base
+{
+public:
+    void show()
+    {
+        cout << "Derived Class";
+    }
+};
+
+int mian()
+{
+    Base b;    // Base class object
+    Derived d; // Derived class object
+    b.show();  // Early Binding Ocuurs
+    d.show();
 }
