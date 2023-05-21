@@ -1,11 +1,10 @@
-void  primeRange(int a){
-    vector<int> p;
-    for(int i = 0;i<=a;i++){
-        for(int j = 2;j<=i;j++){
-            if(i%j==0)
-            cout<<i<<" ";
-            break;
-        }
-    }
-    
-}
+// void inSort(int *p, int len){
+//     for(int i = 1;i<len;i++){
+//         if(p[i-1]>p[i]){
+//             int temp = p[i];
+//                 p[i] = p[i-1];
+//                 p[i-1] = temp;
+//                 i = i-2;
+//         }
+//     }
+// }
