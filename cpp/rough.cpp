@@ -22,6 +22,6 @@ int main() {
         break;
     }
 
-    cout<<int(bs + (0.2*bs) + (0.5*bs) + allow - (0.11*bs))<<endl;
+    cout<<bs + (0.2*bs) + (0.5*bs) + allow - (0.11*bs)<<endl;
     return 0;
 }

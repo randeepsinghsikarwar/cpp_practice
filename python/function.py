@@ -1,1 +1,2 @@
-print("abc" + 2)d
+# a, b = input().split()
+# print(a, "asda", b)
